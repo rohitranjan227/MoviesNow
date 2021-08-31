@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/outline";
 import Image from "next/image";
 import HeaderItem from "./HeaderItem";
+import headerIcon from "/images/moviesnow.png";
 
 function Header() {
     return (
@@ -22,8 +23,8 @@ function Header() {
                 <HeaderItem title="ACCOUNT" Icon={UserIcon} />
             </div>
             <Image 
-               className="object-contain" 
-               src="https://links.papareact.com/ua6" 
+                className="object-contain"
+               src={headerIcon} 
                width={200} 
                height={100} 
                />
